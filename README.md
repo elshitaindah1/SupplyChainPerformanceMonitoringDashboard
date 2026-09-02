@@ -18,14 +18,15 @@ Dataset mencakup data yang berkaitan dengan aktivitas supply chain, seperti prod
 
 Dataset terdiri dari 7 tabel utama, yaitu:
 
-Table	Type	Description
-dim_product	Dimension	Informasi master produk
-dim_supplier	Dimension	Informasi supplier
-dim_facility	Dimension	Informasi facility
-dim_date	Dimension	Informasi tanggal dan periode
-fact_production	Fact	Data aktivitas produksi
-fact_inventory	Fact	Data persediaan dan pergerakan stock
-fact_purchase	Fact	Data aktivitas pembelian
+| Table | Type | Description |
+|---|---|---|
+| `dim_product` | Dimension | Informasi master produk |
+| `dim_supplier` | Dimension | Informasi supplier |
+| `dim_facility` | Dimension | Informasi facility |
+| `dim_date` | Dimension | Informasi tanggal dan periode |
+| `fact_production` | Fact | Data aktivitas produksi |
+| `fact_inventory` | Fact | Data persediaan dan pergerakan stock |
+| `fact_purchase` | Fact | Data aktivitas pembelian |
 
 ### Raw Data Preview
 
