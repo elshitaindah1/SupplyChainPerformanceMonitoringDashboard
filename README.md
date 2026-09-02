@@ -32,15 +32,28 @@ fact_purchase	Fact	Data aktivitas pembelian
 Screenshot berikut menunjukkan contoh data mentah yang digunakan sebagai sumber analisis sebelum dilakukan data preparation dan visualization.
 
 1. Dimension Tables
-![Raw Data Preview](screenshots/raw_data_product.png)
-![Raw Data Preview](screenshots/raw_data_supplier.png)
-![Raw Data Preview](screenshots/raw_data_facility.png)
-![Raw Data Preview](screenshots/raw_data_date.png)
+
+<div align="center">
+
+<img src="screenshots/raw_data_product.png" width="350"> <img src="screenshots/raw_data_supplier.png" width="350">
+
+<br>
+
+<img src="screenshots/raw_data_facility.png" width="350"> <img src="screenshots/raw_data_date.png" width="350">
+
+</div>
 
 2. Fact Tables
-![Raw Data Preview](screenshots/raw_data_production.png)
-![Raw Data Preview](screenshots/raw_data_inventory.png)
-![Raw Data Preview](screenshots/raw_data_purchase.png)
+
+<div align="center">
+
+<img src="screenshots/raw_data_production.png" width="350"> <img src="screenshots/raw_data_inventory.png" width="350">
+
+<br>
+
+<img src="screenshots/raw_data_purchase.png" width="350">
+
+</div>
 
 ---
 
