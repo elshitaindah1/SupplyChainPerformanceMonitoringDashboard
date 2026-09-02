@@ -174,7 +174,11 @@ Dashboard digunakan untuk memonitor performa aktivitas produksi.
 * Production by Facility
 * Production Trend
 
-![Production Performance Dashboard](screenshots/dashboard_production.png)
+<div align="center">
+
+<img src="screenshots/dashboard_production.png" width="800"> 
+
+</div>
 
 ---
 
@@ -196,7 +200,11 @@ Dashboard digunakan untuk memonitor kondisi dan pergerakan inventory.
 * Inventory by Product
 * Inventory by Facility
 
-![Inventory Monitoring Dashboard](screenshots/dashboard_inventory.png)
+<div align="center">
+
+<img src="screenshots/dashboard_Inventory.png" width="800"> 
+
+</div>
 
 ---
 
@@ -220,7 +228,11 @@ Dashboard digunakan untuk memonitor aktivitas procurement dan mengevaluasi perfo
 * Supplier Lead Time
 * Supplier Quality
 
-![Procurement & Supplier Dashboard](screenshots/dashboard_procurement.png)
+<div align="center">
+
+<img src="screenshots/dashboard_procurement.png" width="800"> 
+
+</div>
 
 ---
 
