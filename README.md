@@ -16,11 +16,31 @@ Dataset mencakup data yang berkaitan dengan aktivitas supply chain, seperti prod
 
 **Dataset Source:** [Cacau Prime Foods Supply Chain (2023–2024)](https://www.kaggle.com/datasets/marcoslucena/cacau-prime-foods-supply-chain-20232024)
 
+Dataset terdiri dari 7 tabel utama, yaitu:
+
+Table	Type	Description
+dim_product	Dimension	Informasi master produk
+dim_supplier	Dimension	Informasi supplier
+dim_facility	Dimension	Informasi facility
+dim_date	Dimension	Informasi tanggal dan periode
+fact_production	Fact	Data aktivitas produksi
+fact_inventory	Fact	Data persediaan dan pergerakan stock
+fact_purchase	Fact	Data aktivitas pembelian
+
 ### Raw Data Preview
 
 Screenshot berikut menunjukkan contoh data mentah yang digunakan sebagai sumber analisis sebelum dilakukan data preparation dan visualization.
 
-![Raw Data Preview](images/raw-data.png)
+1. Dimension Tables
+![Raw Data Preview](images/raw_data_product.png)
+![Raw Data Preview](images/raw_data_supplier.png)
+![Raw Data Preview](images/raw_data_facility.png)
+![Raw Data Preview](images/raw_data_date.png)
+
+2. Fact Tables
+![Raw Data Preview](images/raw_data_production.png)
+![Raw Data Preview](images/raw_data_inventory.png)
+![Raw Data Preview](images/raw_data_purchase.png)
 
 ---
 
@@ -140,7 +160,7 @@ Dashboard digunakan untuk memonitor performa aktivitas produksi.
 * Production by Facility
 * Production Trend
 
-![Production Performance Dashboard](images/production-dashboard.png)
+![Production Performance Dashboard](images/dashboard_production.png)
 
 ---
 
@@ -162,7 +182,7 @@ Dashboard digunakan untuk memonitor kondisi dan pergerakan inventory.
 * Inventory by Product
 * Inventory by Facility
 
-![Inventory Monitoring Dashboard](images/inventory-dashboard.png)
+![Inventory Monitoring Dashboard](images/dashboard_inventory.png)
 
 ---
 
@@ -186,7 +206,7 @@ Dashboard digunakan untuk memonitor aktivitas procurement dan mengevaluasi perfo
 * Supplier Lead Time
 * Supplier Quality
 
-![Procurement & Supplier Dashboard](images/procurement-dashboard.png)
+![Procurement & Supplier Dashboard](images/dashboard_procurement.png)
 
 ---
 
