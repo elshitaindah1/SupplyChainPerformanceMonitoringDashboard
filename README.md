@@ -95,10 +95,37 @@ Tahapan data preparation dilakukan untuk memastikan data dapat digunakan secara 
 Memahami struktur dataset, field, tipe data, serta informasi yang tersedia pada setiap tabel.
 
 ### 2. Data Modeling
+Data modeling dilakukan dengan menghubungkan tabel fact dengan tabel dimension berdasarkan key yang sesuai untuk mendukung analisis produksi, inventori, dan procurement.
 
-Menghubungkan fact table dengan dimension table berdasarkan key yang sesuai untuk membentuk data model yang dapat digunakan dalam Tableau.
+A. Inventory Data Model
 
-![Tableau Data Model](images/data-model.png)
+fact_inventory sebagai tabel utama dihubungkan dengan:
+
+* dim_facility → informasi lokasi fasilitas/gudang
+* dim_product → informasi produk dan SKU
+* dim_date → informasi waktu untuk analisis tren stok
+
+<img src="screenshots/data_model_inventory.PNG" width="350">
+
+B. Production Data Model
+
+fact_production sebagai tabel utama dihubungkan dengan:
+
+* dim_facility → lokasi fasilitas produksi
+* dim_product → jenis produk yang diproduksi
+* dim_date → analisis volume produksi berdasarkan waktu
+
+<img src="screenshots/data_model_production.PNG" width="350">
+
+C. Purchase Data Model
+
+fact_purchase sebagai tabel utama dihubungkan dengan:
+
+* dim_facility → fasilitas tujuan pembelian
+* dim_supplier → informasi supplier
+* dim_date → analisis aktivitas pembelian berdasarkan waktu
+
+<img src="screenshots/data_model_purchase.PNG" width="350">
 
 ### 3. Data Type Preparation
 
