@@ -160,25 +160,19 @@ Exploratory Data Analysis dilakukan menggunakan Tableau untuk memahami pola dan 
 
 Menganalisis volume produksi, production cost, production time, dan scrap rate berdasarkan produk, facility, dan periode.
 
-![Production EDA](images/production-eda.png)
-
 ### 2. Inventory Monitoring Analysis
 
 Menganalisis opening stock, closing stock, inbound stock, dan outbound stock untuk melihat perubahan serta pergerakan inventory.
 
-![Inventory EDA](images/inventory-eda.png)
 
 ### 3. Procurement Analysis
 
 Menganalisis purchase quantity, purchase value, purchase trend, item, supplier, dan lead time.
 
-![Procurement EDA](images/procurement-eda.png)
 
 ### 4. Supplier Performance Analysis
 
 Membandingkan supplier berdasarkan purchase activity, lead time, dan quality untuk melihat perbedaan performa antar supplier.
-
-![Supplier EDA](images/supplier-eda.png)
 
 ### 5. Cross-Functional Analysis
 
