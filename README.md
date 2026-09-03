@@ -137,12 +137,18 @@ Membuat calculated fields untuk menghasilkan KPI dan metrik analisis yang dibutu
 
 Contoh calculated fields yang digunakan:
 
-* Average Scrap Rate
-* Stock Movement
-* Average Purchase Value
-* Average Lead Time
-
-![Calculated Fields](images/calculated-fields.png)
+* Total Production
+<div align="center">
+<img src="screenshots/kpi_total_production.png" width="350"> 
+</div>
+* Production Cost
+<div align="center">
+<img src="screenshots/kpi_production_cost.png" width="350"> 
+</div>
+* Production Trend
+<div align="center">
+<img src="screenshots/kpi_production_trend.png" width="350"> 
+</div>
 
 ---
 
